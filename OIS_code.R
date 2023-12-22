@@ -292,3 +292,8 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 Residual standard error: 44.77 on 39 degrees of freedom
 Multiple R-squared:  0.1817,	Adjusted R-squared:  0.1397 
 F-statistic: 4.329 on 2 and 39 DF,  p-value: 0.02005
+
+shapiro.test(Data_ois_v3_corrected2$Controle)
+shapiro.test(Data_ois_v3_corrected2$40 dB)
+shapiro.test(Data_ois_v3_corrected2$60 dB)
+shapiro.test(Data_ois_v3_corrected2$80dB)
